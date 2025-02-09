@@ -1,0 +1,95 @@
+body {
+    background-color: #FEF6E3;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding:12px 40px ;
+}
+
+main {
+    padding: 12px;
+    
+}
+
+.back-to-home {
+    background-color: black;
+    color: white;
+}
+
+
+h1 {
+    font-family: "Michroma", serif;
+  
+  color: #3348A1;
+  
+}
+
+h1 {
+    font-size: 48px;
+    padding: 12px;
+}
+
+button {
+    background-color: #E4543A;
+    color: white;
+    border-radius: 8px  ;
+    width: fit-content;
+    border: none;
+
+    display: flex;
+
+    padding: 12px;
+    align-items: center;
+
+    gap: 8px;
+    
+}
+
+p {
+    width: fit-content;
+    font-family: sans-serif;
+
+}
+
+.btn-container {
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    margin-top: 112px;
+
+    display: flex;
+
+
+    gap: 50px;
+
+    .col-1 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .col-2 { 
+        flex: 1;
+        position: relative;
+        padding: 0px 40px;
+
+        img {
+            
+            height: fixed (400px);
+            
+        }
+
+    }
+}
